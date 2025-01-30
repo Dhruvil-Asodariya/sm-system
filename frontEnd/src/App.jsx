@@ -11,11 +11,12 @@ import AddParent from "./pages/AddParent";
 import Class from "./pages/Class";
 import Subject from "./pages/Subject";
 import Dashboard from "./pages/Dashboard";
-import AdminProfile from "./pages/AdminProfile";
+import Profile from "./pages/Profile";
 import ChangePassword from "./pages/ChangePassword";
 import Course from "./pages/Course";
 import Material from "./pages/Material";
-import StudentProfile from "./pages/StudentProfile";
+import Holiday from "./pages/Holiday";
+import AddHoliday from "./pages/AddHoliday";
 
 const App = () => {
   return (
@@ -33,11 +34,12 @@ const App = () => {
         <Route path="/add_parent" element={ <MasterPage><AddParent /></MasterPage> }/>
         <Route path="/class" element={ <MasterPage><Class /></MasterPage> }/>
         <Route path="/subject" element={ <MasterPage><Subject /></MasterPage> }/>
-        <Route path="/admin_profile" element={ <MasterPage><AdminProfile /></MasterPage> }/>
+        <Route path="/profile" element={ <MasterPage><Profile /></MasterPage> }/>
         <Route path="/change_password" element={ <MasterPage><ChangePassword /></MasterPage> }/>
         <Route path="/course" element={ <MasterPage><Course /></MasterPage> }/>
         <Route path="/material" element={ <MasterPage><Material /></MasterPage> }/>
-        <Route path="/student_profile" element={ <MasterPage><StudentProfile /></MasterPage> }/>
+        <Route path="/holiday" element={ <MasterPage><Holiday /></MasterPage> }/>
+        <Route path="/add_holiday" element={ <MasterPage><AddHoliday /></MasterPage> }/>
       </Routes>
     </Router>
   );

@@ -9,6 +9,7 @@ import { RiParentFill } from "react-icons/ri";
 import { SiGoogleclassroom } from "react-icons/si";
 import { MdSubject, MdCurrencyRupee,MdOutlineLibraryBooks   } from "react-icons/md";
 import { RiLockPasswordLine } from "react-icons/ri";
+import { SlCalender } from "react-icons/sl";
 import "./MasterPage.css";
 
 const MasterPage = ({ children }) => {
@@ -48,7 +49,7 @@ const MasterPage = ({ children }) => {
                             <div className="dropdown-content">
                                 <ul>
                                     <li>
-                                        <Link className="dropdown-link-li" to="/admin_profile">
+                                        <Link className="dropdown-link-li" to="/profile">
                                             <ImProfile />
                                             <span className="dropdown-link-span">Profile</span>
                                         </Link>
@@ -108,6 +109,12 @@ const MasterPage = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li>
+                                    <Link className="link-li" to="/holiday">
+                                        <SlCalender />
+                                        {isSidebarOpen && <span className="link-span">Holiday</span>}
+                                    </Link>
+                                </li>
+                                <li>
                                     <Link className="link-li" to="/subject">
                                         <MdSubject />
                                         {isSidebarOpen && <span className="link-span">Subject</span>}
@@ -151,7 +158,7 @@ const MasterPage = ({ children }) => {
                             <div className="dropdown-content">
                                 <ul>
                                     <li>
-                                        <Link className="dropdown-link-li" to="/student_profile">
+                                        <Link className="dropdown-link-li" to="/profile">
                                             <ImProfile />
                                             <span className="dropdown-link-span">Profile</span>
                                         </Link>
@@ -190,6 +197,12 @@ const MasterPage = ({ children }) => {
                                     <Link className="link-li" to="/course">
                                         <MdOutlineLibraryBooks   />
                                         {isSidebarOpen && <span className="link-span">Couse</span>}
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="link-li" to="/holiday">
+                                        <SlCalender   />
+                                        {isSidebarOpen && <span className="link-span">Hiloday</span>}
                                     </Link>
                                 </li>
                             </ul>

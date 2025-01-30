@@ -17,6 +17,7 @@ const Student = () => {
                         <thead className="table-primary">
                             <tr>
                                 <th scope="col">Sr No.</th>
+                                <th scope="col">Profile</th>
                                 <th scope="col">First Name</th>
                                 <th scope="col">Last Name</th>
                                 <th scope="col">Email</th>
@@ -24,6 +25,7 @@ const Student = () => {
                                 <th scope="col">Date Of Birth</th>
                                 <th scope="col">Age</th>
                                 <th scope="col">Gender</th>
+                                <th scope="col">Class</th>
                                 <th scope="col">Address</th>
                                 <th scope="col">Action</th>
                             </tr>
@@ -31,6 +33,7 @@ const Student = () => {
                         <tbody>
                             <tr>
                                 <td scope="row">1</td>
+                                <td scope="row"><img src="21421.jpg" className="profile_img"/></td>
                                 <td scope="row">John</td>
                                 <td scope="row">Doe</td>
                                 <td scope="row">johndoe@example.com</td>
@@ -38,6 +41,7 @@ const Student = () => {
                                 <td scope="row">1990-01-01</td>
                                 <td scope="row">28</td>
                                 <td scope="row">Male</td>
+                                <td scope="row">12</td>
                                 <td scope="row">123 Main St, City, State, Zip</td>
                                 <td scope="row">
                                     <Link>

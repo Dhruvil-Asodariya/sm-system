@@ -138,7 +138,7 @@ const AddParent = () => {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default AddParent;

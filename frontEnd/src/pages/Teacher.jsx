@@ -17,6 +17,7 @@ const Teacher = () => {
                         <thead className="table-primary">
                             <tr>
                                 <th scope="col">Sr.No</th>
+                                <th scope="col">Profile</th>
                                 <th scope="col">First Name</th>
                                 <th scope="col">Last Name</th>
                                 <th scope="col">Email</th>
@@ -33,6 +34,7 @@ const Teacher = () => {
                         <tbody>
                             <tr>
                                 <td scope="row">1</td>
+                                <td scope="row"><img src="21421.jpg" className="profile_img"/></td>
                                 <td scope="row">John</td>
                                 <td scope="row">Doe</td>
                                 <td scope="row">johndoe@example.com</td>
